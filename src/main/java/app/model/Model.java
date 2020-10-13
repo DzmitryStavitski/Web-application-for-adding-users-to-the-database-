@@ -25,7 +25,7 @@ public class Model {
 
     public List<String> list() {
         return model.stream()
-                .map(User::getName)
+                .map(User::getLastName)
                 .collect(Collectors.toList());
     }
 }
